@@ -1,14 +1,14 @@
 {
-    "title": "GitBook 使用教程",
-    "description": "记录 GitBook 的配置和一些插件的使用",
-    "author": "zhangjikai",
+    "title": "高等数学",
+    "description": "记录高等数学学习历程",
+    "author": "MasterShu",
     "output.name": "site",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "root": ".",
     "links": {
         "sidebar": {
-            "Home": "http://www.zhangjikai.com"
+            "Home": "http://blog.mastershu.club"
         }
     },
     "plugins": [
@@ -21,7 +21,6 @@
         "github@^2.0.0",
         "github-buttons@2.1.0",
         "edit-link@^2.0.2",
-        "disqus@^0.1.0",
         "prism@^2.1.0",
         "prism-themes@^0.0.2",
         "advanced-emoji@^0.2.1",
@@ -60,19 +59,16 @@
         "theme-default": {
             "showLevel": true
         },
-        "disqus": {
-            "shortName": "gitbookuse"
-        },
         "prism": {
             "css": [
                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
             ]
         },
         "github": {
-            "url": "https://github.com/zhangjikai/gitbook-use"
+            "url": "https://github.com/HigherMaths/highermaths.github.io.git"
         },
         "github-buttons": {
-            "repo": "zhangjikai/gitbook-use",
+            "repo": "HigherMaths/highermaths.github.io",
             "types": [
                 "star"
             ],
@@ -86,7 +82,6 @@
         "sharing": {
            "douban": false,
            "facebook": false,
-           "google": true,
            "hatenaBookmark": false,
            "instapaper": false,
            "line": false,
@@ -102,13 +97,13 @@
            "weibo": true,
            "whatsapp": false,
            "all": [
-               "facebook", "google", "twitter",
+               "facebook", "twitter",
                "weibo", "instapaper", "linkedin",
                "pocket", "stumbleupon", "qq", "qzone"
            ]
        },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © zhangjikai.com 2017",
+            "copyright": "Copyright © mastershu.club 2017",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -128,11 +123,11 @@
             "skipFirstH1": true
         },
         "edit-link": {
-            "base": "https://github.com/zhangjikai/gitbook-use/edit/master",
+            "base": "https://github.com/HigherMaths/highermaths.github.io/edit/master",
             "label": "Edit This Page"
         },
         "sitemap-general": {
-            "prefix": "http://gitbook.zhangjikai.com"
+            "prefix": "http://highermaths1.mastershu.club"
         },
         "anchor-navigation-ex": {
             "isRewritePageTitle": false,
@@ -151,19 +146,6 @@
             "copyButtons": true,
             "fade": false,
             "style": "flat"
-        },
-
-        "versions": {
-            "options": [
-                {
-                    "value": "http://gitbook.zhangjikai.com",
-                    "text": "v3.2.3"
-                },
-                {
-                    "value": "http://gitbook.zhangjikai.com/v2/",
-                    "text": "v2.6.4"
-                }
-            ]
         },
 
         "rss": {
