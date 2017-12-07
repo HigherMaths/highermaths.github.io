@@ -21,8 +21,6 @@
         "github@^2.0.0",
         "github-buttons@2.1.0",
         "edit-link@^2.0.2",
-        "prism@^2.1.0",
-        "prism-themes@^0.0.2",
         "advanced-emoji@^0.2.1",
         "anchors@^0.7.1",
         "include-codeblock@^3.0.2",
@@ -46,8 +44,6 @@
         "include-csv@^0.1.0",
         "puml@^1.0.1",
         "musicxml@^1.0.2",
-        "klipse@^1.2.0",
-        "versions-select@^0.1.1",
         "rss@^3.0.2",
         "-sharing",
         "sharing-plus@^0.0.2",
@@ -58,11 +54,6 @@
     "pluginsConfig": {
         "theme-default": {
             "showLevel": true
-        },
-        "prism": {
-            "css": [
-                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-            ]
         },
         "github": {
             "url": "https://github.com/HigherMaths/highermaths.github.io.git"
