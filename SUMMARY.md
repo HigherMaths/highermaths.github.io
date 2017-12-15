@@ -5,3 +5,4 @@
   * [函数](Function/function.md)
   * [数列的极限](Function/limit.md)
   * [函数的极限](Function/functionLimit.md)
+  * [无穷大与无穷小](Function/infinite.md)
