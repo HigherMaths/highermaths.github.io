@@ -45,3 +45,15 @@
 * 当 $$ y_n \neq 0 (n = 1,2,\mathellipsis)$$, $$ B \neq 0 $$ 时 $$ {\lim \atop n \to \infty}\frac{x_n}{y_n} = \frac{A}{B}$$.
 
 ## 符合函数的极限运算法则
+
+{% em %}定理
+{% endem %}
+设函数 $$ y = f[g(x)] $$ 由函数 $$ y = f(u) $$ 和 $$ u = g(x) $$ 复合而成, $$ f[g(x)] $$ 在点 $$ x_0 $$ 的某一去心邻域内有定义, 若 $$ {\lim \atop x \to x_0 }g(x) = u_0 $$, $$ {\lim \atop u \to u_0}f(u) = A $$, 且存在 $$ \delta_0 > 0 $$, 当 $$ x \in {o \atop U} (x_0, \delta_0)$$ 时, 有 $$ g(x) \neq u_0 $$,则  
+  $$ {\lim \atop x \to x_0}f[g(x)] = {\lim \atop u \to u_0}f(u) = A $$
+
+{% em %}注
+{% endem %}
+1. 此定理的条件是保证 $$ {\lim \atop x \to x_0}f[g(x)] $$ 的极限存在;
+1. 在一定条件, 此定理对自变量的其他变化情形也成立, 如若 $$ {\lim \atop x \to \infty}g(x) = u_0, {\lim \atop u \to u_0}f(u) = A$$, 则 
+  $$ {\lim \atop x \to x_0}f[g(x)] = {\lim \atop u \to u_0}f(u) = A $$
+1. 此定理是在求极限是进行变量代换的依据 
